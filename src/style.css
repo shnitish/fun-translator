@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap'); 
+
+* {
+     box-sizing: border-box;
+ }
+
+:root {
+    --primary-color: #F0921C;
+    --secondary-color: #005197;
+    --width-break: 650px   
+}  
+
+body {
+    margin: 0;
+    color: #333333;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+#txt-input{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    max-height: 15vh;
+    margin-top: 2rem;
+    font-size: large;
+    border: 5px solid var(--primary-color);
+}
+
+#btn-translate {
+    background-color: var(--primary-color);
+    border:none;
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 5px solid var(--secondary-color);
+    background-color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+    padding: 0rem 1rem;
+}
